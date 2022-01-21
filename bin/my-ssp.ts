@@ -18,7 +18,7 @@ ssp.CodePipelineStack.builder()
   .owner("anubhavynr")
   .repository({
       repoUrl: 'eks-workshop',
-      credentialsSecretName: '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',
+      credentialsSecretName: 'github-token',
       targetRevision: 'main'
   })
   // Add stages
